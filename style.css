@@ -4,7 +4,8 @@ h2   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
-.container {  display: grid;
+
+.container_index {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
@@ -18,3 +19,14 @@ a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 .nightcall { grid-area: nightcall; }
 .thecaldera { grid-area: thecaldera; }
 .external { grid-area: external; }
+
+.container_projects {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "projects games";
+}
+.projects { grid-area: projects; }
+.games { grid-area: games; }

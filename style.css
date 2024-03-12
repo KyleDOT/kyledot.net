@@ -30,3 +30,14 @@ a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 }
 .projects { grid-area: projects; }
 .games { grid-area: games; }
+
+.container_resume {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "employment skills";
+}
+.employment { grid-area: employment; }
+.skills { grid-area: skills; }

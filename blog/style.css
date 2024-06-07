@@ -1,0 +1,24 @@
+body {background-color: #0f1a30;}
+h1   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
+h2   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
+h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
+p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
+a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
+
+.container_index {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "blog_date blog_theme";
+    p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px;}
+}
+.blog_date { grid-area: blog_date; }
+.blog_theme { grid-area: blog_theme; }
+
+.blog_head {
+	}
+.blog_body {
+	p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 20%;padding-right: 20%;}
+	}

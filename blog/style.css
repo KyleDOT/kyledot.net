@@ -1,7 +1,7 @@
 body {background-color: #0f1a30;}
 h1   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 h2   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
-h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
+h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 
@@ -18,7 +18,13 @@ a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 .blog_theme { grid-area: blog_theme; }
 
 .blog_head {
+    h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
 	}
 .blog_body {
 	p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 20%;padding-right: 20%;}
 	}
+.img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }

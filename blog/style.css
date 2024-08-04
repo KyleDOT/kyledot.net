@@ -3,7 +3,7 @@ h1   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 
-.clear {clear: both;}
+.clear {clear: both; }
 
 .container_index {  display: grid;
     grid-template-columns: 1fr 1fr;

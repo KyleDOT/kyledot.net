@@ -16,19 +16,27 @@ a    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
     ul   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
     ol   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 100px}
 }
+
 .blog_date { grid-area: blog_date; }
 .blog_theme { grid-area: blog_theme; }
 
 .blog_head {
     h3   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: center;}
 	}
+
 .blog_body {
 	p    {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 20%;padding-right: 20%;}
 	ul   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 20%;padding-right: 20%;}
 	ol   {color: white;font-family: Tahoma, Verdana, sans-serif;text-align: left;padding-left: 20%;padding-right: 20%;}
 	}
+
 .img_center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    }
+
+.img_flag {
+    float: left;
+    width: 20%;
     }
